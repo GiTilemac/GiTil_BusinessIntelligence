@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.DataWarehouseDB"
+  DTS:DTSID="{9DF06410-8650-4DD9-B389-5D1F7190BF19}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=DataWarehouseDB;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{9DF06410-8650-4DD9-B389-5D1F7190BF19}localhost.DataWarehouseDB;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

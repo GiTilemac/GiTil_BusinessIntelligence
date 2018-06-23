@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Hypercube (SSAS)", "Hypercube (SSAS)\Hypercube (SSAS).dwproj", "{2AF33443-CDDD-4685-AF1D-5CE4CE11699F}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ETL (SSIS)", "ETL (SSIS)\ETL (SSIS).dtproj", "{F27A12BC-E45D-4C8F-B949-2B3BC7D41B4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Development|Default = Development|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AF33443-CDDD-4685-AF1D-5CE4CE11699F}.Debug|Default.ActiveCfg = Development
+		{2AF33443-CDDD-4685-AF1D-5CE4CE11699F}.Debug|Default.Build.0 = Development
+		{2AF33443-CDDD-4685-AF1D-5CE4CE11699F}.Debug|Default.Deploy.0 = Development
+		{2AF33443-CDDD-4685-AF1D-5CE4CE11699F}.DebugLocal|Default.ActiveCfg = Development
+		{2AF33443-CDDD-4685-AF1D-5CE4CE11699F}.DebugLocal|Default.Build.0 = Development
+		{2AF33443-CDDD-4685-AF1D-5CE4CE11699F}.DebugLocal|Default.Deploy.0 = Development
+		{2AF33443-CDDD-4685-AF1D-5CE4CE11699F}.Development|Default.ActiveCfg = Development
+		{2AF33443-CDDD-4685-AF1D-5CE4CE11699F}.Development|Default.Build.0 = Development
+		{2AF33443-CDDD-4685-AF1D-5CE4CE11699F}.Development|Default.Deploy.0 = Development
+		{2AF33443-CDDD-4685-AF1D-5CE4CE11699F}.Release|Default.ActiveCfg = Development
+		{2AF33443-CDDD-4685-AF1D-5CE4CE11699F}.Release|Default.Build.0 = Development
+		{2AF33443-CDDD-4685-AF1D-5CE4CE11699F}.Release|Default.Deploy.0 = Development
+		{F27A12BC-E45D-4C8F-B949-2B3BC7D41B4A}.Debug|Default.ActiveCfg = Development
+		{F27A12BC-E45D-4C8F-B949-2B3BC7D41B4A}.Debug|Default.Build.0 = Development
+		{F27A12BC-E45D-4C8F-B949-2B3BC7D41B4A}.DebugLocal|Default.ActiveCfg = Development
+		{F27A12BC-E45D-4C8F-B949-2B3BC7D41B4A}.DebugLocal|Default.Build.0 = Development
+		{F27A12BC-E45D-4C8F-B949-2B3BC7D41B4A}.Development|Default.ActiveCfg = Development
+		{F27A12BC-E45D-4C8F-B949-2B3BC7D41B4A}.Development|Default.Build.0 = Development
+		{F27A12BC-E45D-4C8F-B949-2B3BC7D41B4A}.Release|Default.ActiveCfg = Development
+		{F27A12BC-E45D-4C8F-B949-2B3BC7D41B4A}.Release|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

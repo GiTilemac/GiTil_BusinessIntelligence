@@ -1,0 +1,131 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Hypercube SSAS</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>cxXfjlFMzX+XJH3c3P2oKuIoEMo=08-Oct-17 5:44:10 PM08-Oct-17 5:44:07 PM</TimeStamp>
+        <ID>
+          <String>Data_Warehouse_Source</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>tMGInCR2okl92t/pi9VpbBlR6Z4=20-Oct-17 9:44:45 PM03-Oct-17 5:57:05 PM</TimeStamp>
+        <ID>
+          <String>Data_Warehouse_View</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>F9JX7nlow+WqWCjSCjvw17Lfpko=20-Oct-17 7:01:57 PM08-Oct-17 7:21:36 PM</TimeStamp>
+        <ID>
+          <String>Blood Alcohol</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>H4v7o5XTz+j2Jn79DsWEqewcHG8=19-Oct-17 10:39:00 AM08-Oct-17 7:33:36 PM</TimeStamp>
+        <ID>
+          <String>Breath Test</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>z/kT1uvBVebnQKfM2Xw67ceEmk0=20-Oct-17 1:34:20 PM20-Oct-17 1:28:49 PM</TimeStamp>
+        <ID>
+          <String>Accidents</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6GeDFnzeUeLtc9uSGVtthn8TFZ0=20-Oct-17 10:22:20 PM20-Oct-17 1:29:08 PM</TimeStamp>
+        <ID>
+          <String>Casualties</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9odU6AnGWSM7yrWtL+ShFlV3Vv4=20-Oct-17 10:22:20 PM20-Oct-17 1:29:30 PM</TimeStamp>
+        <ID>
+          <String>Vehicles</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lL9P3fdfJHGop7baxu90AVEsx3I=20-Oct-17 10:22:20 PM20-Oct-17 1:29:45 PM</TimeStamp>
+        <ID>
+          <String>Drivers</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OkSN7KV4mgPdZ7Ae8Z8cyt/WkMk=20-Oct-17 1:41:39 PM20-Oct-17 1:35:15 PM</TimeStamp>
+        <ID>
+          <String>Road Conditions</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NTpD7bEO1MBk0VY6c24nSYMysNM=20-Oct-17 1:41:39 PM20-Oct-17 1:35:28 PM</TimeStamp>
+        <ID>
+          <String>Weather Conditions</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3kxRGcA1Nc2CjjPmCkWn+seo+wQ=20-Oct-17 8:35:00 PM20-Oct-17 8:35:00 PM</TimeStamp>
+        <ID>
+          <String>Casualties Bridge</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>O7P52Y7UZjX8ErBgna0g8GvAknM=20-Oct-17 8:35:40 PM20-Oct-17 8:35:40 PM</TimeStamp>
+        <ID>
+          <String>Vehicles Bridge</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Z1tsF8RgJT1NUWteYtpyJ4kFvKY=20-Oct-17 9:11:35 PM20-Oct-17 9:11:35 PM</TimeStamp>
+        <ID>
+          <String>DimTime</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>MdeBMsiwM1vDl6TbgnwAJeDMO/0=20-Oct-17 10:31:39 PM20-Oct-17 9:14:24 PMiyF6UqMBbcsEmbZwHu5Cg8AbPlE=20-Oct-17 10:31:39 PM20-Oct-17 9:14:24 PM</TimeStamp>
+        <ID>
+          <String>Data_Warehouse_Cube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>JiOW1+CrX/M6bEgo1CfOyLmbkE0=19-Oct-17 3:54:26 PM21-Sep-17 3:45:51 PM</TimeStamp>
+      <ID>
+        <String>Hypercube SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2017-10-20T19:31:40.943333Z</LastDeployed>
+</DeploymentSnapshot>

@@ -1,0 +1,374 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="46d2be9e-e53b-4d15-896c-07a0228c5d15" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Accidents</ID>
+  <Name>DimAccidents</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-525" scrolltop="-5300" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11557" y="16595" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Accidents" left="20" top="0" logicalid="8" controlid="1" masterid="0" hint1="0" hint2="0" width="7345" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000b11c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Accidents" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Casualties" left="0" top="6414" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="6181" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00002518000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Casualties" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Vehicles" left="8581" top="1" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="5461" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00005515000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Vehicles" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Fact_Table" left="2223" top="987" logicalid="11" controlid="4" masterid="0" hint1="0" hint2="0" width="3958" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000760f0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Fact_Table" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5881" top="1002" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="1248" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Tabl__Vehic__72B0FDB1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="22" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8581" y="1401" />
+              <point x="7381" y="1401" />
+              <point x="7381" y="1950" />
+              <point x="6181" y="1950" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2141" top="3714" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Tabl__Casua__73A521EA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="8" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2540" y="6414" />
+              <point x="2540" y="5214" />
+              <point x="2552" y="5214" />
+              <point x="2552" y="4014" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5881" top="1001" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="1784" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Tabl__Accid__71BCD978]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="31" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7365" y="1400" />
+              <point x="6181" y="1400" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-525</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5300</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="177">
+            <Shape Id="Accident Index" Expanded="true">
+              <Attributes>
+                <Attribute Id="Accident Index" />
+                <Attribute Id="Accident Severity" />
+                <Attribute Id="Road Type" />
+                <Attribute Id="Speed Limit" />
+                <Attribute Id="Weather Conditions" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Accident Time" Expanded="false">
+              <Attributes>
+                <Attribute Id="Accident Time" />
+              </Attributes>
+              <Position x="246" y="20" />
+            </Shape>
+            <Shape Id="Accident Date" Expanded="false">
+              <Attributes>
+                <Attribute Id="Accident Date" />
+              </Attributes>
+              <Position x="246" y="69" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="510b46d6-c65e-4c53-8506-732f1384f73e">
+    <DataSourceViewID>Data_Warehouse_View</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="1d6b90ab-a9fb-4194-9811-c71cb3f9a10d">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="7a1ac094-4b6e-4748-a69b-532c6de0e665">
+      <ID>Accident Index</ID>
+      <Name>Accident Index</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2bfb579e-f295-426e-855f-b145557e8430">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="05ce5c0c-8a09-4b71-8978-579a138f9b95">
+            <TableID>dbo_Accidents</TableID>
+            <ColumnID>Accident_Index</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ad3285d0-dbef-436a-9c17-984c1fb611da">
+          <AttributeID>Accident Severity</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Accident Severity</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="261f3420-6f53-4a88-a2ed-ff035b0e5b51">
+          <AttributeID>Road Type</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Road Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="104af60e-2291-4821-b7d6-dc3652fa2c9d">
+          <AttributeID>Speed Limit</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Speed Limit</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9f86d6d7-e2cc-456d-acf1-0a7141c1dfad">
+          <AttributeID>Weather Conditions</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Weather Conditions</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="76fef772-0209-41c8-8c67-56e87e470e40">
+          <AttributeID>Accident Date</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Accident Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="acf79cce-8a7d-4caf-b55c-e1b62d404be3">
+          <AttributeID>Accident Time</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Accident Time</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="be9e8135-e9ce-48ee-ad73-b995eedb20d9">
+      <ID>Accident Severity</ID>
+      <Name>Accident Severity</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="88d42d4b-bf0d-4a98-81eb-88208803c1bf">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4eeff39e-dadd-44d5-95c8-ce0ee1d768ee">
+            <TableID>dbo_Accidents</TableID>
+            <ColumnID>Accident_Severity</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f7d30f16-650a-4f27-8ecc-cfc7a23ad26f">
+        <DataType>WChar</DataType>
+        <DataSize>7</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b4950c1a-7b49-4c27-a554-c4ef72e5cb68">
+          <TableID>dbo_Accidents</TableID>
+          <ColumnID>Accident_SeverityDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="53c41a7e-3484-4925-b328-32290467ceda">
+      <ID>Accident Date</ID>
+      <Name>Accident Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3d9bde00-a30f-4a7e-b96a-0fc6fe19ad68">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cc93e6ac-4f5b-4433-ab40-72692b5611b5">
+            <TableID>dbo_Accidents</TableID>
+            <ColumnID>Accident_Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="627c37ac-cf05-4f62-8d4b-183facbdcba9">
+      <ID>Accident Time</ID>
+      <Name>Accident Time</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ca04654a-7ee8-4675-8a74-f45d188a8c27">
+          <DataType>WChar</DataType>
+          <DataSize>16</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8d3002a2-0e4a-463c-b7ee-9c527eff4b30">
+            <TableID>dbo_Accidents</TableID>
+            <ColumnID>Accident_Time</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="80fc9d28-bf18-456d-8b2d-2fd4aaaed285">
+      <ID>Road Type</ID>
+      <Name>Road Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e54399a8-9c63-4335-acd2-844da420ba00">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e5727fad-ec49-4376-a796-48be8b87e4c9">
+            <TableID>dbo_Accidents</TableID>
+            <ColumnID>Road_Type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="d36d13e3-1725-4b71-961e-2843399827d2">
+        <DataType>WChar</DataType>
+        <DataSize>24</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="4746ad31-dfe2-4e62-9c87-d222a22ca20f">
+          <TableID>dbo_Accidents</TableID>
+          <ColumnID>Road_TypeDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="76b3b5be-f84b-458d-bbbe-97a9fada1d56">
+      <ID>Speed Limit</ID>
+      <Name>Speed Limit</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="261f84ae-4808-48cb-ab22-3f8ddad7659f">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="62f66918-ce7a-4808-b882-81ffc5b052b6">
+            <TableID>dbo_Accidents</TableID>
+            <ColumnID>Speed_limit</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b9cad842-d7f3-4f32-98ce-daae6d65f9c1">
+      <ID>Weather Conditions</ID>
+      <Name>Weather Conditions</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0a10b4c3-29d5-4361-b4e1-bc3936a48489">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bfdf853d-6f24-4476-b070-67910aee49c2">
+            <TableID>dbo_Accidents</TableID>
+            <ColumnID>Weather_Conditions</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="9b0ad430-d826-4a69-ac97-784c24a3d99a">
+        <DataType>WChar</DataType>
+        <DataSize>21</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="bd3d1c6a-f02f-46ea-9b37-c99457f6b5b9">
+          <TableID>dbo_Accidents</TableID>
+          <ColumnID>Weather_ConditionsDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
