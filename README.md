@@ -1,6 +1,8 @@
 # GiTil_BusinessIntelligence
 ### Advanced Information Systems (Business Intelligence) University Project
 
+*GiTil_BusinessIntelligence is licensed under the GNU General Public License v3.0*
+
 Computer Engineering and Informatics Department  
 University of Patras  
 Winter Semester 2016  
