@@ -1,6 +1,15 @@
 # GiTil_BusinessIntelligence
 ### Advanced Information Systems (Business Intelligence) University Project
 
+Computer Engineering and Informatics Department  
+University of Patras  
+Winter Semester 2016  
+Advanced Information Systems  
+
+Author: Tilemachos S. Doganis  
+
+Co-authors: Spiros Kaftanis, Apostolos Kemos
+
 #### Implements an interactive Data Warehouse with an OLAP Hypercube for Data Analysis of UK Road Traffic Accident Data. The program consists of an ETL package, an OLAP Hypercube, and interactive visualizations.
 
 Makes use of the following software:
