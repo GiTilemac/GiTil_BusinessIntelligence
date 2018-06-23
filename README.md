@@ -9,9 +9,15 @@ Makes use of the following software:
  * SQL Server Data Tools for Visual Studio 2015  
  * Microsoft Excel 2010  
  * Microsoft PowerBI (2.51.4885.543)  
-
-Contains public sector information licensed under the [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
-
-References:  
+  
+Prerequisites:  
+1. Ensure that 'SQL Server' and 'SQL Server Analysis Services' are launched.
+2. Update any filepaths
+3. See Report for more information on how and where to place the necessary files for proper data warehouse function.
+  
+  References:  
  * https://data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data  
  * https://www.gov.uk/drink-drive-limit
+
+---
+Contains public sector information licensed under the [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
